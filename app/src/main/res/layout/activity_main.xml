@@ -120,7 +120,7 @@
             android:layout_alignBaseline="@+id/checkBox10"
             android:layout_alignBottom="@+id/checkBox10"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="46dp"
+            android:layout_marginStart="31dp"
             android:onClick="checkClicked"
             android:text="arms" />
 
@@ -165,8 +165,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/checkBox11"
-            android:layout_alignEnd="@+id/body"
-            android:layout_marginEnd="71dp"
+            android:layout_marginStart="54dp"
+            android:layout_toEndOf="@+id/checkBox8"
             android:onClick="checkClicked"
             android:text="glasses"
             tools:layout_editor_absoluteX="227dp"
@@ -194,7 +194,7 @@
             android:id="@+id/checkBox13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/body"
+            android:layout_above="@+id/checkBox14"
             android:layout_alignStart="@+id/checkBox12"
             android:onClick="checkClicked"
             android:text="mustache" />
@@ -203,10 +203,19 @@
             android:id="@+id/checkBox14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/body"
             android:layout_alignStart="@+id/checkBox13"
-            android:layout_below="@+id/body"
             android:onClick="checkClicked"
             android:text="nose" />
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox14"
+            android:layout_below="@+id/body"
+            android:onClick="checkClicked"
+            android:text="shoes" />
 
     </RelativeLayout>
 

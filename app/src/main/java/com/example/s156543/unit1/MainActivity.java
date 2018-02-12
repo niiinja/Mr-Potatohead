@@ -23,37 +23,37 @@ public class MainActivity extends AppCompatActivity {
         if (checkbox.isChecked()) {
 
             if (box.equals("arms")) {
-                ImageView image = (ImageView) findViewById(R.id.arms);
+                ImageView image = findViewById(R.id.arms);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("body")) {
-                ImageView image = (ImageView) findViewById(R.id.body);
+                ImageView image = findViewById(R.id.body);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("ears")) {
-                ImageView image = (ImageView) findViewById(R.id.ears);
+                ImageView image = findViewById(R.id.ears);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("eyebrows")) {
-                ImageView image = (ImageView) findViewById(R.id.eyebrows);
+                ImageView image = findViewById(R.id.eyebrows);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("eyes")) {
-                ImageView image = (ImageView) findViewById(R.id.eyes);
+                ImageView image = findViewById(R.id.eyes);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("glasses")) {
-                ImageView image = (ImageView) findViewById(R.id.glasses);
+                ImageView image = findViewById(R.id.glasses);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("hat")) {
-                ImageView image = (ImageView) findViewById(R.id.hat);
+                ImageView image = findViewById(R.id.hat);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("mouth")) {
-                ImageView image = (ImageView) findViewById(R.id.mouth);
+                ImageView image = findViewById(R.id.mouth);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("mustache")) {
-                ImageView image = (ImageView) findViewById(R.id.mustache);
+                ImageView image = findViewById(R.id.mustache);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("nose")) {
-                ImageView image = (ImageView) findViewById(R.id.nose);
+                ImageView image = findViewById(R.id.nose);
                 image.setVisibility(View.VISIBLE);
             } else if (box.equals("shoes")) {
-                ImageView image = (ImageView) findViewById(R.id.shoes);
+                ImageView image = findViewById(R.id.shoes);
                 image.setVisibility(View.VISIBLE);
             }
 
@@ -62,47 +62,47 @@ public class MainActivity extends AppCompatActivity {
 
             // makes images invisible when their boxes are unchecked
             if (box.equals("arms")) {
-                ImageView image = (ImageView) findViewById(R.id.arms);
+                ImageView image = findViewById(R.id.arms);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("body")) {
-                ImageView image = (ImageView) findViewById(R.id.body);
+                ImageView image = findViewById(R.id.body);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("ears")) {
-                ImageView image = (ImageView) findViewById(R.id.ears);
+                ImageView image = findViewById(R.id.ears);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("eyebrows")) {
-                ImageView image = (ImageView) findViewById(R.id.eyebrows);
+                ImageView image = findViewById(R.id.eyebrows);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("eyes")) {
-                ImageView image = (ImageView) findViewById(R.id.eyes);
+                ImageView image = findViewById(R.id.eyes);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("glasses")) {
-                ImageView image = (ImageView) findViewById(R.id.glasses);
+                ImageView image = findViewById(R.id.glasses);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("hat")) {
-                ImageView image = (ImageView) findViewById(R.id.hat);
+                ImageView image = findViewById(R.id.hat);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("mouth")) {
-                ImageView image = (ImageView) findViewById(R.id.mouth);
+                ImageView image = findViewById(R.id.mouth);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("mustache")) {
-                ImageView image = (ImageView) findViewById(R.id.mustache);
+                ImageView image = findViewById(R.id.mustache);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("nose")) {
-                ImageView image = (ImageView) findViewById(R.id.nose);
+                ImageView image = findViewById(R.id.nose);
                 image.setVisibility(View.INVISIBLE);
 
             } else if (box.equals("shoes")) {
-                ImageView image = (ImageView) findViewById(R.id.shoes);
+                ImageView image = findViewById(R.id.shoes);
                 image.setVisibility(View.INVISIBLE);
 
             }
