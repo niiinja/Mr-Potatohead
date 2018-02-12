@@ -1,3 +1,8 @@
+// mr Potato Head - Unit1
+// Minor Programmeren
+// Nina Boelsums, 10742670
+
+
 package com.example.s156543.unit1;
 
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkbox = (CheckBox) v;
         String box = checkbox.getText().toString();
 
-
+        // makes images visible when their boxes are checked
         if (checkbox.isChecked()) {
 
             if (box.equals("arms")) {
@@ -55,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
         } else {
 
+            // makes images invisible when their boxes are unchecked
             if (box.equals("arms")) {
                 ImageView image = (ImageView) findViewById(R.id.arms);
                 image.setVisibility(View.INVISIBLE);
@@ -109,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    // restores visibility values after restoration
     public void onRestoreInstanceState(Bundle inState) {
         findViewById(R.id.body).setVisibility(inState.getInt("body"));
         findViewById(R.id.arms).setVisibility(inState.getInt("arms"));
@@ -121,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.shoes).setVisibility(inState.getInt("shoes"));
     }
 
-
+    // saves visibility state
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState); // always call super
         outState.putInt("body", findViewById(R.id.body).getVisibility());
